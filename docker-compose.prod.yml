@@ -67,7 +67,7 @@ services:
       - JWT_SECRET=${JWT_SECRET}
 
       # MongoDB
-      - MONGODB_DATABASE_URL=mongodb://mongo/bigcapital
+      - MONGODB_DATABASE_URL=${MONGODB_DATABASE_URLL}
 
       # Application
       - BASE_URL=${BASE_URL}
